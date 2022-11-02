@@ -1,0 +1,1 @@
+As iCloud didnt have some kind of proper client for all of things in one app I decided to make my own basic client **based on iClouds own web app** so everything goes **through Apple** and not me or some other middle app. _All data requested or sended with this app is pure connection to Apple servers using Chrome 86._
