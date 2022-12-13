@@ -26,7 +26,7 @@ class MainWindow(QMainWindow):
         self.browser = QWebEngineView()
 
         # setting default browser url as google
-        self.browser.setUrl(QUrl("https://beta.icloud.com/"))
+        self.browser.setUrl(QUrl("https://icloud.com/"))
 
         # adding action when url get changed
         self.browser.urlChanged.connect(self.update_urlbar)
@@ -108,19 +108,19 @@ class MainWindow(QMainWindow):
     # method called by the home action
     def navigate_home(self):
         # open the google
-        self.browser.setUrl(QUrl("https://beta.icloud.com/"))
+        self.browser.setUrl(QUrl("https://icloud.com/"))
 
     def navigate_mail(self):
-        self.browser.setUrl(QUrl("https://beta.icloud.com/mail/"))
+        self.browser.setUrl(QUrl("https://icloud.com/mail/"))
 
     def navigate_photos(self):
-        self.browser.setUrl(QUrl("https://beta.icloud.com/photos/"))
+        self.browser.setUrl(QUrl("https://icloud.com/photos/"))
 
     def navigate_drive(self):
-        self.browser.setUrl(QUrl("https://beta.icloud.com/drive"))
+        self.browser.setUrl(QUrl("https://icloud.com/drive"))
 
     def navigate_notes(self):
-        self.browser.setUrl(QUrl("https://beta.icloud.com/notes/"))
+        self.browser.setUrl(QUrl("https://icloud.com/notes/"))
 
     # method called by the line edit when return key is pressed
     def navigate_to_url(self):
